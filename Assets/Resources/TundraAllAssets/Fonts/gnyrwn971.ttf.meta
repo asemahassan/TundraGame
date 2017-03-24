@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bc41b99c84777aa48b83e6c98925c291
+timeCreated: 1484488174
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gunny Rewritten
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9c2b3e70b7aa8e443ba0eb72fac246c6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

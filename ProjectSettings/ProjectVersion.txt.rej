@@ -1,0 +1,5 @@
+diff a/ARGame/ProjectSettings/ProjectVersion.txt b/ARGame/ProjectSettings/ProjectVersion.txt	(rejected hunks)
+@@ -1,2 +0,2 @@
+-m_EditorVersion: 5.4.0f3
++m_EditorVersion: 5.3.4f1
+ m_StandardAssetsVersion: 0

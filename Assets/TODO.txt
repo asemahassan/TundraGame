@@ -1,0 +1,102 @@
+TODO List:
+
+****Team # 1 (Asema, Michael, Marleen)****
+
+=============================================================
+ASEMA: 
+
+***11.08.16**** 
+1. Created 3D Envrionment, using unity terrain and assets for level design.
+2. Added items: fish, berries
+3. Added Snow particle effect on Player as child.
+4. FPS Player controller --- subject to change will implement a simple controller after getting data from tactile floor.
+5. Added individual scripts for berry, fish controllers.
+6. Added SFX to play when items are picked up OnTriggerEnter.
+7. Main Menu UI elements created; script is MenuController
+	-MainMenu is set for Display 2 and is rendered by UICamera, layer set to UI.
+8. HUD UI elements created; script is HUDController
+	-HUD is set for Display 1 and is rendered by MainCamera, layer set to HUD.
+9. Added Editor script nGUI for setting anchor points to corners.
+10. GameController generates all level objects; terrains, berries of different types, fishes etc
+11. GameConfigs.cs contains all enum 
+12. AssetsPath.cs contains all static strings for paths. (For Resouces.Load() )
+13. UI_Participant Info form added.
+
+****25.08.16****
+
+1. Redesigned the Interactable Canvas for feet area.
+2. Score updating value fixed.
+3. Simple Player Controller; Moving Straight, Right and Left with certain speed. 
+4. Terrain updated according to demand of museum. (Tundra style)
+
+****26.08.16****
+
+1. TactileFloorOpenCV plugin fixed for Visual Studio 2015 with OpenCV3.0
+2. DLL setup done in Unity FloorControllerCSharp.cs
+3. Floordata as struct passed in Unity.
+
+****08.09.16****
+1. Add different spawn positions for fishpond, berries. 
+Spawning only infront of player viewport.
+3. Add bushes and grass on terrain.
+4. Game Timer on HUD
+5. Town for game completion.
+
+****09.10.16****
+Setting terrain grass and texture according to designer suggestion
+Add ambience sound. (wind sound added)
+Add animals from screen sides to pop in randomly
+Bugs fixing of spawning berries (stopped)
+Added game finish dialog boxes with sounds
+Replacing assets provided by designers
+Adding fishpond into 3D scene as prefab with Trigger
+StartScreen asset replaced.
+Adding red blood splash on eating red berries.
+=============================================================
+MICHAEL:
+- Floor data used in UI
+- Flower visualisation in UI 
+- Highscore manager
+- PlayerName inputfield
+- Event system
+=============================================================
+MARLEEN:
+(19.08.2016)
+- added Shader + Script to Pond test scene
+- added some dummy textures for the fish pond testscene
+- added a basic textureswap to the test scene
+=============================================================
+
+***Team # 2(Kay, Stefan, Asema)*****
+=============================================================
+STEFAN: (15.11.16 - 18.01.16)
+- CSharp implementation to get floor data into Unity
+- Wolf running animation infront of player 
+=============================================================
+KAY: (15.11.16 - 18.01.16)
+- Soundgame fading out of sprites when tapped on floor
+- Random generation of path in Runner scene
+- SplineController to move player on a path generated
+- BerrySpawner improved according to spline
+=============================================================
+ASEMA:
+****15.11.16 to 15.02.17*****
+- HUD assets replace with new design
+- UI feedback elements when tapped
+- 2D SoundGame implementation to test feedback of SensFloor
+- Runner game questions pop up 
+- Player running gesture with new CSharp implementation
+- Wolf idle to run animations blending according to player floor input
+- Sounds integration in game overall.
+- Replaced Berry with a 3d model and pump animation. 
+- Fish 3d model inside bucket instead of fishpond to navigate to that scene
+- Bucket with hover animation.
+- Quiz integration at different points, reading 5 different questions.
+- Main Screen for all game scenes with department and credits.
+	- Tundra
+	- SoundGame
+	- Credits
+	- QuitDemo
+- Refactoring of classes, deleted all extra stuff.
+
+Happy coding :)
